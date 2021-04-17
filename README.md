@@ -16,7 +16,8 @@
 
 ## :house: About the project
 
-The project is a simulator to help users simulate how and when they will achieve their goal of buying their own home.
+The project is based on the pomodoro technique.
+You have 25 minutes for pure productivity, and then after this 5 minutes to take a break, where you can do some flexibility training that displays in the application Challenge Box.
 <br>
 
 ## :computer: Technologies
@@ -36,7 +37,7 @@ The project is a simulator to help users simulate how and when they will achieve
 
 **You need to install [Node.js](https://nodejs.org/en/download/) first, then in order to clone the project via HTTPS, run this command:**
 
-```$ git clone https://github.com/MTitoS/TodoReact.git```
+```$ git clone https://github.com/MTitoS/Move-V1.git```
 
 <br>
 
