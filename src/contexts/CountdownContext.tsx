@@ -31,7 +31,7 @@ export function CountdownProvider({
 }: CountdownProviderProps) {
   const { startNewChallenge } = useContext(ChallengesContext);
 
-  const [time, setTime] = useState(0.1 * 60);
+  const [time, setTime] = useState(0.2 * 60);
   const [isActive, setActive] = useState(false);
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
