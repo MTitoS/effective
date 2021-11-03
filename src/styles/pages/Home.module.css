@@ -9,8 +9,15 @@
 
 .container section {
   flex: 1 1;
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 6.25rem;
   align-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container section {
+    display: flex;
+    flex-flow: wrap column;
+  }
 }
