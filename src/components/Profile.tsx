@@ -12,7 +12,7 @@ export function Profile() {
         alt="Your profile picture"
       />
       <div>
-        <input id="nickname-input" type="text" maxLength="20" />
+        <input id="nickname-input" type="text" />
 
         <p>
           <img src="icons/level.svg" alt="Icone Level UP" />{" "}
