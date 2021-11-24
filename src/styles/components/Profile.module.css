@@ -15,10 +15,19 @@
   margin-left: 1.5rem;
 }
 
-.profileContainer div strong {
+.profileContainer div input {
   font-size: 1.5rem;
   font-weight: 600;
+
+  background: var(--white);
   color: var(--title);
+
+  outline: none;
+  border: none;
+}
+
+.profileContainer div input:focus {
+  outline: 1px solid var(--title);
 }
 
 .profileContainer div p {
