@@ -15,19 +15,14 @@
   margin-left: 1.5rem;
 }
 
-.profileContainer div input {
+.profileContainer div p:first-child {
   font-size: 1.5rem;
   font-weight: 600;
 
-  background: var(--white);
   color: var(--title);
 
   outline: none;
   border: none;
-}
-
-.profileContainer div input:focus {
-  outline: 1px solid var(--title);
 }
 
 .profileContainer div p {
@@ -37,7 +32,4 @@
 
 .profileContainer div p img {
   margin-right: 0.5rem;
-}
-
-@media only screen and (max-width: 1200px) {
 }
